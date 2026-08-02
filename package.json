@@ -1,0 +1,24 @@
+{
+  "name": "efexia",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "node init && next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "next": "^15.5.4",
+    "node-fetch": "^3.3.2",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.30",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^5.9.2"
+  }
+}
